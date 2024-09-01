@@ -238,7 +238,7 @@ class SiglipEncoder(nn.Module):
             [SiglipEncoderLayer(config) for _ in range(config.num_hidden_layers)]
         )
 
-    # Ignore copy
+
     def forward(
         self,
         inputs_embeds: torch.Tensor
